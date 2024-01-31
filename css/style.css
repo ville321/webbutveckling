@@ -57,17 +57,38 @@ body {
 .main-section img {
   height: 25em;
   width: 20em;
+  margin: 3em;
 }
 
 .main-section h1 {
   font-weight: bold;
   color: white;
+  border-bottom: 5px white solid;
+  
 }
 
 .main-section li {
   width: 100%;
   color: white;
   list-style: none;
-  margin-right: 3em;
-  padding: 2em;
+  margin-bottom: 3em;
+}
+
+.imgs, h1, p{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1, p {
+  color: white
+}
+
+p {
+  margin-bottom: 10em;
+}
+
+.konsert {
+  height: 30em;
+  margin: 2em
 }

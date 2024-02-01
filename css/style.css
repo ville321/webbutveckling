@@ -7,11 +7,11 @@
 body {
   font-family: 'Poppins';
   margin: 0;
-  background: #D4E7C5;
+  background: #BFD8AF;
 }
 
 .container {
-  background: #BFD8AF;
+  background: #b1cda0;
   padding: .1em;
 }
 
@@ -63,7 +63,6 @@ body {
 .main-section h1 {
   font-weight: bold;
   color: white;
-  border-bottom: 5px white solid;
   
 }
 
@@ -74,21 +73,21 @@ body {
   margin-bottom: 3em;
 }
 
-.imgs, h1, p{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 h1, p {
   color: white
 }
 
 p {
-  margin-bottom: 10em;
+  margin-bottom: 5em;
 }
 
 .konsert {
   height: 30em;
-  margin: 2em
+  margin: 2em;
+}
+
+.text h1, p, .imgs{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }

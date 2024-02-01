@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-:root {
-  --blue: #5865c8;
-}
-
 body {
   font-family: 'Poppins';
   margin: 0;
@@ -47,37 +43,34 @@ body {
   font-weight: bold;
 }
 
-.main-section {
+.section {
   display: flex;
   justify-content: center;
   padding-top: 5em;
-  padding-left: 25em;
+  margin-bottom: 3em;
 }
 
-.main-section img {
+.section img {
   height: 25em;
   width: 20em;
-  margin: 3em;
+  margin: auto 2em;
 }
 
-.main-section h1 {
-  font-weight: bold;
-  color: white;
-  
-}
-
-.main-section li {
-  width: 100%;
+.section li {
   color: white;
   list-style: none;
   margin-bottom: 3em;
+}
+
+.section ul, .section span {
+  width: 140px;
 }
 
 h1, p {
   color: white
 }
 
-p {
+.text p {
   margin-bottom: 5em;
 }
 

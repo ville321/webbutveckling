@@ -26,9 +26,10 @@ body {
 }
 
 @keyframes navborder {
-  0% { 
+  0% {
     border-bottom-width: 0px;
   }
+
   100% {
     border-bottom-width: 5px;
   }
@@ -57,16 +58,18 @@ body {
 }
 
 .section li {
-  color: white;
   list-style: none;
   margin-bottom: 3em;
 }
 
-.section ul, .section span {
+.section ul,
+.section span {
   width: 140px;
 }
 
-h1, p {
+h1,
+p,
+.section li {
   color: white
 }
 
@@ -79,7 +82,9 @@ h1, p {
   margin: 2em;
 }
 
-.text h1, p, .imgs{
+.text h1,
+p,
+.imgs {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

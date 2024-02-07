@@ -84,3 +84,10 @@ h1, p {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.guitar {
+  height: 200px;
+  background-image: url(../images/strata.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
